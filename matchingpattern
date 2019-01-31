@@ -1,0 +1,19 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class fileparse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] data = { "ConsumerCenter:ishjkg09_2019456789" };
+	Pattern p=Pattern.compile("ConsumerCenter:"+"(.*)"+"_");
+	for (String s : data) {
+	    Matcher m=p.matcher(s);
+	    if(m.find()) {
+	        System.out.println(m.group(1));
+	        }	
+	
+	}
+
+}
+}
