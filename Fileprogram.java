@@ -7,7 +7,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
-
+//krishnan
+//
+/*  steps to done
+    Go to Window > Preferences > Run/Debug > Console
+    Uncheck "Limit Console Output" (Alternatively you can increase the Console buffer size.)
+*/
 public class Fileprogram {
 
 	public static void main(String[] args)  {
