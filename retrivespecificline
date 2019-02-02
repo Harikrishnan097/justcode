@@ -1,0 +1,15 @@
+
+Path path=Paths.get("D:\\spring\\javapro\\src\\com\\my\\pro\\input");
+
+for(int n=1000;n<2000;n++)
+			{
+			String line;
+			try (Stream<String> lines = Files.lines(path)) {
+			    line = lines.skip(n).findFirst().get();
+			   System.out.println(line);
+			    //writer.write(line);
+				//writer.newLine();
+			    
+	}
+      }
+			
